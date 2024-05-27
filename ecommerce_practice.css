@@ -78,7 +78,7 @@ ul li a:hover {
 
 /* Banner Design */
 .banner-img-content{
-  background-image: url('banner-bg.Webp');
+  background-image: url('./banner-bg.webp');
   height: 500px;
   background-repeat: no-repeat;
   background-size: 100%;
