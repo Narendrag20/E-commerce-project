@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            background-color: purple;
+        }
+        .fieldset{
+            color: white;
+            text-align: center;
+            padding-top: 19%;
+            padding-left: 45%;
+            padding-right: 42%;
+            padding-bottom: 19%;
+
+        }
+        #username{
+            padding: 5%;
+            margin: 2%;
+            border: none;
+            border-radius: 2px;
+        }
+        #password{
+            padding: 5%;
+            margin: 2%;
+            border: none;
+            border-radius: 2px;
+        }
+        #button{
+            padding: 5%;
+            margin: 2%;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .button1:hover{
+            background-color: orangered;
+            color: white; 
+        }
+        input{
+            border: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="fieldset">
+    <!-- <legend class="loginpage">Login</legend> -->
+    <form name="login" method="GET" action="#" autocomplete="off">
+        <input type="text" name="username" id="username" placeholder="Username" required>
+        <input type="text" name="password" id="password" placeholder="Password" required>
+        <input type="button" name="Login" value="Login" id="button" class="button1">
+    </form>
+    </section>
+</body>
+</html>

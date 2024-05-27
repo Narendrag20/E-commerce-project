@@ -1,0 +1,990 @@
+body {
+  background-color: rgb(238, 237, 237);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Header Design */
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+}
+
+.headerbgcoler {
+  background-color: white;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+
+.container ul li a {
+  padding: 1.6rem;
+  color: rgb(7, 7, 69);
+}
+
+.headericons {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.headericonsearch,
+.headericonshopping,
+.headericonuser {
+  background-color: rgb(227, 224, 224);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 7px;
+  margin-right: 7px;
+  height: 40px;
+  width: 40px;
+  padding-top: 0px;
+}
+
+.fa-solid,
+.fas {
+  padding-top: 10px;
+}
+
+a:hover {
+  color: rgb(255, 136, 0);
+}
+
+ul li a:hover {
+  color: rgb(255, 136, 0);
+}
+
+/* Banner Design */
+.banner-img-content{
+  background-image: url('banner-bg.Webp');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.banner-img-head {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 9%;
+  padding-bottom: 1%;
+}
+.banner-img-desc{
+  text-align: center;
+  line-height: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.banner-button {
+  border: 1px solid rgb(8, 8, 80);
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 45%;
+  margin-top: 1%;
+}
+
+/* Features Design */
+.ourfeatureshead,
+.ourproductshead,
+.productcategorieshead,
+.customersreviewhead {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(5, 5, 70);
+  font-weight: bold;
+}
+
+.featuresclippath {
+  width: 155px;
+  height: 40px;
+  background-color: orange;
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+  color: white;
+  font-size: 30px;
+  padding-left: 2%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.featureshead,
+.productshead,
+.categorieshead,
+.reviewshead,
+.blogshead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourfeatures,
+.ourproducts,
+.customersreview {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 5%;
+  
+}
+
+.productsclippath {
+  width: 160px;
+  height: 40px;
+  background-color: orange;
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+  color: white;
+  font-size: 30px;
+  padding-left: 2%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.fresh_and_organic,
+.free_delovery,
+.easy_payments,
+.fresh_cabbage,
+.freshorange,
+.freshonion,
+.greenlemmon,
+.freshpotato,
+.freshavacado,
+.customersreview1,
+.customersreview2,
+.customersreview3 {
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  border: 1px solid rgb(5, 5, 70);
+  outline: 10px solid white;
+  margin: 5%;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+
+.fresh_and_organic_img,
+.free_delovery_img,
+.easy_payments_img,
+.fresh_cabbage_img,
+.fresh_orange_img,
+.fresh_onion_img,
+.green_lemon_img,
+.fresh_potato_img,
+.fresh_avacado_img,
+.customersreview1_img,
+.customersreview2_img,
+.customersreview3_img {
+  text-align: center;
+}
+
+.fresh_and_organic_head,
+.free_delovery_head,
+.easy_payments_head,
+.fresh_cabbage_head,
+.fresh_orange_head,
+.fresh_onion_head,
+.green_lemon_head,
+.fresh_potato_head,
+.fresh_avacado_head,
+.customersreview1_name,
+.customersreview2_name,
+.customersreview3_name {
+  color: rgb(5, 5, 70);
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fresh_and_organic_desc,
+.free_delovery_desc,
+.easy_payments_desc,
+.fresh_cabbage_desc,
+.fresh_orange_desc,
+.fresh_onion_desc,
+.green_lemon_desc,
+.fresh_potato_desc,
+.fresh_avacado_desc,
+.customersreview1_desc,
+.customersreview2_desc,
+.customersreview3_desc {
+  color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.fresh_and_organic_button,
+.free_delovery_button,
+.easy_payments_button,
+.fresh_cabbage_button,
+.fresh_orange_button,
+.fresh_onion_button,
+.green_lemon_button,
+.fresh_potato_button,
+.fresh_avacado_button {
+  text-align: center;
+  color: rgb(5, 5, 70);
+  border: 2px solid rgb(5, 5, 70);
+  border-radius: 5px;
+  padding: 5%;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+#stars {
+  color: orangered;
+}
+
+.starts {
+  text-align: center;
+}
+
+/* Product Catogiries */
+.categoriesclippath {
+  width: 185px;
+  height: 40px;
+  background-color: orange;
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+  color: white;
+  font-size: 30px;
+  padding-left: 2%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.productcategories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5%;
+
+}
+
+.vegitables,
+.freshfruits,
+.dairyproducts,
+.freshmeet {
+  background-color: white;
+  height: 280px;
+  width: 220px;
+  border: 1px solid rgb(5, 5, 70);
+  outline: 10px solid white;
+  margin: 5%;
+  padding-top: 30px;
+}
+
+.vegitables_img,
+.fresh_fruits_img,
+.dairy_products_img,
+.fresh_meet_img {
+  text-align: center;
+}
+
+.vegitables_head,
+.vegitables_head,
+.fresh_fruits_head,
+.dairy_products_head,
+.fresh_meet_head {
+  color: rgb(5, 5, 70);
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.vegitables_desc,
+.fresh_fruits_desc,
+.dairy_products_desc,
+.fresh_meet_desc {
+  color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+.vegitables_button,
+.fresh_fruits_button,
+.dairy_products_button,
+.fresh_meet_button {
+  text-align: center;
+  color: rgb(5, 5, 70);
+  border: 2px solid rgb(5, 5, 70);
+  border-radius: 5px;
+  padding: 5%;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+/* Customer Review Design */
+.reviewsclippath {
+  width: 135px;
+  height: 40px;
+  background-color: orange;
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+  color: white;
+  font-size: 30px;
+  padding-left: 2%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.customersreview1_img img,
+.customersreview2_img img,
+.customersreview3_img img {
+  border-radius: 50%;
+}
+
+.customersreview1_desc,
+.customersreview2_desc,
+.customersreview3_desc,
+.customersreview1_name,
+.customersreview2_name,
+.customersreview3_name {
+  padding: 10px;
+}
+
+.blogsclippath {
+  width: 115px;
+  height: 40px;
+  background-color: orange;
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+  color: white;
+  font-size: 30px;
+  padding-left: 2%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.blogssection {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(5, 5, 70);
+  font-weight: bold;
+}
+
+.ourblogs {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 5%;
+}
+
+.blog1,
+.blog2,
+.blog3 {
+  background-color: white;
+  height: 530px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.blog1_img img,
+.blog2_img img,
+.blog3_img img {
+  height: 260px;
+  width: 350px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.blog1_head,
+.blog2_head,
+.blog3_head {
+  color: rgb(5, 5, 70);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 35px;
+}
+
+.blog1_desc,
+.blog2_desc,
+.blog3_desc {
+  color: gray;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.blog1_button,
+.blog3_button,
+.blog2_button {
+  text-align: center;
+  color: rgb(5, 5, 70);
+  border: 2px solid rgb(5, 5, 70);
+  border-radius: 5px;
+  padding: 10px;
+  width: 40%;
+  margin-left: 10px;
+}
+
+.blog1_update_date,
+.blog2_update_date,
+.blog3_update_date {
+  display: flex;
+  border-bottom: 2px solid rgb(178, 176, 176);
+  justify-content: space-around;
+  padding: 10px;
+  color: orangered;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#fa-solid-fa-user,
+#fa-solid-fa-calender {
+  color: gray;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+/* footer Design */
+.footer {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  padding-left: 12%;
+}
+
+.contactinfohead,
+.quicklinkshead,
+.newsletterhead {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contactinfo {
+  color: rgb(5, 5, 70);
+}
+
+.footerlogo_img {
+  padding-top: 20px;
+}
+
+.footerdesc {
+  color: gray;
+  padding-right: 30%;
+  text-align: justify;
+}
+
+.footericons {
+  color: rgb(5, 5, 70);
+
+}
+
+.footericons .fa-brands {
+  background-color: rgb(238, 237, 237);
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.contacticon,
+.quicklinksicon {
+  display: flex;
+}
+
+.contacticon i,
+.quicklinksicon i {
+  padding-top: 15px;
+  padding-right: 15px;
+  color: orangered;
+  font-size: 15px;
+}
+
+.contacticon p,
+.quicklinksicon p {
+  color: gray;
+  font-size: 15px;
+}
+
+.newsletterdesc {
+  color: gray;
+  font-size: 15px;
+}
+
+.newsletterbutton {
+  color: rgb(5, 5, 70);
+  border: 2px solid rgb(5, 5, 70);
+  border-radius: 5px;
+  padding: 2%;
+  width: 30%;
+  margin-top: 15px;
+}
+
+#subscribebox {
+  background-color: rgb(228, 226, 226);
+  height: 30px;
+  width: 50%;
+  border-radius: 5px;
+  padding-left: 5%;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.paymentsimg {
+  margin-top: 25px;
+}
+
+.quicklinksiconp:hover {
+  color: orangered;
+}
+
+/* Media Query */
+/* mobile */
+@media screen and (min-width:320px) and (max-width:426px){
+  body {
+    overflow-x: hidden;
+  }
+  .nav-bar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 10px;
+  }
+  ul {
+   display: grid !important; 
+   grid-template-columns: repeat(2,1fr);
+  }
+  ul li{
+    padding: 12px;
+    margin-left: 10%;
+  }
+  .headericons {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .banner-img-head {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+  }
+  .banner-img-desc{
+    text-align: center;
+    line-height: 20px;
+    margin-left:15%;
+    margin-right: 15%;
+    font-size: 10px;
+    position: relative;
+    bottom: 20px;
+  }
+  .banner-button {
+    border: 1px solid rgb(8, 8, 80);
+    height: 20px;
+    width: 80px;
+    border-radius: 5px;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 12px;
+    position: relative;
+    bottom: 20px;
+    }
+  .featuresclippath {
+    width: 145px;
+    padding-left: 5%;
+  }
+  .featureshead{
+    position: relative;
+    bottom: 350px;
+  }
+  .ourfeatures{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 350px;
+  } 
+  .productshead{
+    position: relative;
+    bottom: 350px;
+  }
+  .ourproducts{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 350px;
+  }
+  .productsclippath{
+    width: 150px;
+    padding-left: 5%;
+  }
+  .categorieshead{
+    position: relative;
+    bottom: 350px;
+  }
+  .productcategories{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 350px;
+    margin-left: 20%;
+  }
+  .categoriesclippath{
+    width: 180px;
+    padding-left: 5%;
+  }
+  .reviewshead{
+    position: relative;
+    bottom: 300px;
+  }
+  .customersreview{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 300px;
+    margin-left: 5%;
+  }
+  .reviewsclippath{
+    width: 135px;
+    padding-left:3%;
+  }
+  .blogshead{
+    position: relative;
+    bottom: 300px;
+  }
+  .ourblogs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 300px;
+    margin-left: 8%;
+  }
+  .blogsclippath{
+    width: 100px;
+    padding-left:5%;
+  }
+  .blog2{
+    margin-top:30px;
+  }
+  .blog3{
+    margin-top:30px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    background-color: white;
+    height: 530px;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .blog1_img img,
+  .blog2_img img,
+  .blog3_img img {
+    height: 260px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: white;
+    height: 1050px;
+    width: 85%;
+    margin-top: 10px;
+    margin-right:none;
+    position: relative;
+    bottom: 250px;
+  }
+  .newsletterbutton{
+    width: 20%;
+  }
+
+}
+
+/* Tablet */
+@media screen and (min-width:426px) and (max-width:768px){
+  body {
+    overflow-x: hidden;
+  }
+  .nav-bar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 10px;
+  }
+  ul {
+    display: grid !important; 
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 5%;
+  }
+  .banner-img-head {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .banner-img-desc{
+    text-align: center;
+    line-height: 25px;
+    margin-left:20%;
+    margin-right:20%;
+    font-size: 15px;
+  }
+  .banner-button {
+    border: 1px solid rgb(8, 8, 80);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 45%;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .featuresclippath {
+    width: 145px;
+    padding-left: 5%;
+  }
+  .featureshead{
+    position: relative;
+    bottom: 250px;
+  }
+  .ourfeatures{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 250px;
+    margin-left: 25%;
+  }
+  .ourproducts{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 25%;
+    position: relative;
+    bottom: 230px;
+  }
+  .productsclippath{
+    width: 150px;
+    padding-left: 3%;
+  }
+  .productshead{
+    position: relative;
+    bottom: 220px;
+  }
+  .categorieshead{
+    position: relative;
+    bottom: 220px;
+  }
+  .productcategories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    bottom: 220px;
+    margin-left: 15%;
+  }
+  .categoriesclippath{
+    width: 180px;
+    padding-left: 3%;
+  }
+  .reviewshead{
+    position: relative;
+    bottom: 180px;
+  }
+  .customersreview{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 180px;
+    margin-left: 25%;
+  }
+  .reviewsclippath{
+    width: 135px;
+    padding-left:3%;
+  }
+  .blogshead{
+    position: relative;
+    bottom: 180px;
+  }
+  .ourblogs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    bottom: 180px;
+    margin-left: 27%;
+  }
+  .blogsclippath{
+    width: 100px;
+  }
+  .blog2{
+    margin-top:30px;
+  }
+  .blog3{
+    margin-top:30px;
+  }
+
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    height: 600px;
+    width: 85%;
+    margin-top: 10px;
+    margin-right:none;
+    position: relative;
+    bottom: 100px;
+  }
+  .newsletterbutton{
+    width: 22%;
+  }
+}
+/* lap small screen */
+@media screen and (min-width:769px) and (max-width:1024px){
+  *body {
+    overflow-x: hidden;
+  }
+  .nav-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+   .headericons {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .banner-img-head {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+  }
+  .banner-img-desc{
+    text-align: center;
+    line-height: 35px;
+    margin-left:20%;
+    margin-right:20%;
+    font-size: 15px;
+  }
+  .banner-button {
+    border: 1px solid rgb(8, 8, 80);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 45%;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .featuresclippath {
+    width: 100px !important;
+    padding-right:4.5% !important;
+  }
+  .featureshead{
+   position: relative;
+    bottom: 150px;
+  }
+  .ourfeatures{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) !important;
+    position: relative;
+    bottom: 150px;
+    margin-left: 10%;
+  }
+  .ourproducts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    bottom: 150px;
+  }
+  .productsclippath{
+    width: 160px;
+    padding-left: 3%;
+  }
+  .productshead{
+    position: relative;
+    bottom: 150px;
+  }
+  .categorieshead{
+    position: relative;
+    bottom: 150px;
+  }
+  .productcategories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    bottom: 150px;
+    margin-left: 15%;
+  }
+  .categoriesclippath{
+    width: 190px;
+    padding-left:3%;
+  }
+  .reviewshead{
+    position: relative;
+    bottom: 150px;
+  }
+  .customersreview{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    bottom: 150px;
+    margin-left: 10%;
+  }
+  .reviewsclippath{
+    width: 135px;
+    padding-left:3%;
+  }
+  .blogshead{
+    position: relative;
+    bottom: 150px;
+  }
+  .ourblogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    bottom: 150px;
+    margin-left: 11%;
+  }
+  .blogsclippath{
+    width: 100px;
+  }
+  .blog3{
+    margin-top:30px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    height: 600px;
+    width: 85%;
+    margin-top: 10px;
+  }
+  .newsletterbutton{
+    width: 14%;
+  }
+}
